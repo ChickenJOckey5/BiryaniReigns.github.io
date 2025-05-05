@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    body {
+      background-image: url("https://www.tvinsider.com/wp-content/uploads/2023/01/Roman-Reigns-2-1014x570.jpg");
+      background-size: cover;
+      background-position: center top -100px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .crocodilo {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 2rem;
+      border-top: 1px solid rgb(88, 9, 179);
+      border-bottom: 1px solid rgb(87, 10, 175);
+      color: rgb(92, 8, 161);
+      text-align: center;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0);
+      padding: "5ptx";
+
+    }
+    
+    p {
+        font-size: 40px;
+        margin: 10px;
+        color: rgb(148, 44, 245);
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+    
+    a {
+      font-size: 50px;
+      color: #cf08e9;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      margin-top: 2rem;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    }
+    
+    a:hover {
+      color: #a200ff;
+      text-decoration: underline;
+      
+    }
+    .leoKun{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 2rem;
+        border-radius: 10px;
+        
+    }
+    
